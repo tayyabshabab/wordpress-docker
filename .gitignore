@@ -1,1 +1,13 @@
-.env
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!docker-compose.yml
+!/docker
+!/docker/mysql/
+!/docker/mysql/my.cnf
+!/docker/wordpress/
+!/docker/wordpress/uploads.ini
+!.env.example
+!README.md
