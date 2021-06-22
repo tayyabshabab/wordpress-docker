@@ -4,6 +4,9 @@
 # But not these files...
 !.gitignore
 !docker-compose.yml
+!/data
+!/data/mysql/
+!/data/mysql/.gitkeep
 !/docker
 !/docker/mysql/
 !/docker/mysql/my.cnf
